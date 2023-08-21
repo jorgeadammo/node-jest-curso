@@ -1,0 +1,27 @@
+{
+  "name": "node-jest-curso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/** test/** --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgeadammo/node-jest-curso.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgeadammo/node-jest-curso/issues"
+  },
+  "homepage": "https://github.com/jorgeadammo/node-jest-curso#readme",
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "jest": "23.6.0"
+  }
+}
